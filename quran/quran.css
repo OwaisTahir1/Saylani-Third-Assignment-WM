@@ -1,0 +1,12 @@
+ul,
+li,
+a {
+    list-style-type: none;
+    color: royalblue;
+    text-decoration: none;
+}
+
+a:hover {
+    cursor: pointer;
+    color: rebeccapurple;
+}
