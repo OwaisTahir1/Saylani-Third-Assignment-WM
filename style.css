@@ -1,0 +1,498 @@
+        body {
+            margin: 0px;
+            width: 100%;
+            padding: px;
+            font-size: small;
+        }
+        
+        div.nav1 {
+            background-color: #316dc3;
+            height: 52px;
+            padding-left: 0%;
+        }
+        
+        .bt1,
+        .bt2 {
+            display: inline;
+        }
+        
+        button.fb {
+            background-color: #316dc3;
+            border: none;
+            margin-top: 10px;
+            margin-left: 60px;
+        }
+        
+        button.fb:hover {
+            background-color: #316dc3;
+            cursor: pointer;
+        }
+        
+        button.tw {
+            background-color: #316dc3;
+            border: none;
+            margin-top: 10px;
+        }
+        
+        button.tw:hover {
+            background-color: #316dc3;
+            cursor: pointer;
+        }
+        
+        button.ins {
+            background-color: #316dc3;
+            border: none;
+            margin-top: 10px;
+        }
+        
+        button.ins:hover {
+            background-color: #316dc3;
+            cursor: pointer;
+        }
+        
+        button.you {
+            background-color: #316dc3;
+            border: none;
+            margin-top: 10px;
+        }
+        
+        button.you:hover {
+            background-color: #316dc3;
+            cursor: pointer;
+        }
+        
+        button.wh {
+            background-color: #316dc3;
+            border: none;
+            margin-top: 10px;
+        }
+        
+        button.wh:hover {
+            background-color: #316dc3;
+            cursor: pointer;
+        }
+        
+        span.navtext {
+            padding-left: 12%;
+            margin-top: 15px;
+        }
+        
+        button.uk {
+            height: 35px;
+            color: green;
+            margin-left: 75px;
+        }
+        
+        button.dn {
+            margin-top: 7px;
+            height: 35px;
+            color: green;
+        }
+        
+        button.dn:hover {
+            cursor: pointer;
+        }
+        
+        button.sr {
+            height: 35px;
+            color: green;
+        }
+        
+        button.sr:hover {
+            cursor: pointer;
+        }
+        
+        button.uk:hover {
+            cursor: pointer;
+        }
+        
+        button.uk,
+        button.dn,
+        button.sr {
+            border-color: green;
+            margin-bottom: 10px;
+        }
+        
+        #topnav {
+            background-color: rgb(253, 247, 247);
+            width: 100%;
+            height: 80px;
+            font-size: small;
+            position: static;
+        }
+        
+        .logo {
+            margin-left: 100px;
+            margin-top: 0px;
+            float: left;
+            width: 30%;
+        }
+        
+        .nav {
+            color: black;
+            float: right;
+            text-decoration: none;
+            padding: 30px;
+            margin-top: -17px;
+            margin-left: -10px;
+        }
+        
+        .home {
+            background: rgb(60, 60, 197);
+            color: white;
+            border-radius: 40%;
+            text-decoration: none;
+            padding: 10px;
+            border-radius: 40px;
+            border: 2px;
+        }
+        
+        .about {
+            color: black;
+            margin-left: 10px;
+            padding: 10px;
+            border-radius: 40px;
+            border: 2px;
+        }
+        
+        .about:hover {
+            background: rgb(60, 60, 197);
+            color: white;
+            border-radius: 40px;
+            border: 1px;
+            cursor: pointer;
+        }
+        
+        .dropdown:hover .dropdown-content {
+            display: block;
+        }
+        
+        .dropdown {
+            position: relative;
+            display: inline-block;
+            z-index: 90;
+        }
+        
+        .dropdown-content {
+            display: none;
+            position: absolute;
+            background-color: white;
+            min-width: 160px;
+            box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+            z-index: 1;
+        }
+        
+        .dropdown-content a {
+            color: black;
+            padding: 12px 16px;
+            text-decoration: none;
+            display: block;
+        }
+        
+        .intro {
+            font-family: 'Times New Roman', Times, serif;
+        }
+        
+        #bluebar {
+            background-color: rgb(41, 41, 196);
+            width: 100%;
+            height: 250px;
+        }
+        
+        .colr {
+            background-color: rgb(41, 41, 196);
+        }
+        
+        #dd {
+            display: flex;
+            flex-wrap: wrap;
+            align-content: center;
+            justify-content: center;
+            color: white;
+            width: 40%;
+            padding-top: 50px;
+            padding-left: 60%;
+            padding-right: 60%;
+        }
+        
+        #fadp {
+            display: flex;
+            flex-wrap: wrap;
+            align-items: center;
+            justify-content: center;
+            color: white;
+            width: 30%;
+            padding-top: 50px;
+            padding-left: 50%;
+            padding-right: 50%;
+        }
+        
+        #medical {
+            display: flex;
+            flex-wrap: wrap;
+            align-items: center;
+            justify-content: center;
+            color: white;
+            width: 25%;
+            padding-top: 50px;
+            padding-left: 50%;
+            padding-right: 50%;
+        }
+        
+        #education {
+            display: flex;
+            flex-wrap: wrap;
+            align-items: center;
+            color: white;
+            width: 25%;
+            justify-content: center;
+            padding-top: 50px;
+            padding-left: 50%;
+        }
+        
+        .dropdown-content a:hover {
+            background-color: #316dc3;
+        }
+        
+        .bg-blue {
+            background-color: #316dc3;
+        }
+        
+        #introduction {
+            background-color: #F7F8FA;
+            padding-top: 5%;
+            padding-bottom: 5%;
+            text-align: center;
+        }
+        
+        #intro-heading,
+        #service-heading,
+        #gallery-heading {
+            text-align: center;
+            font-size: 45px;
+            color: #8CC444;
+            font-weight: 500;
+            transition: .5s;
+        }
+        
+        #intro-heading:hover,
+        #gallery-heading:hover,
+        #service-heading:hover {
+            transform: translate(0px, -10px);
+            transition: .5s;
+            cursor: pointer;
+        }
+        
+        #service-heading {
+            margin-top: 5%;
+        }
+        
+        #intro,
+        #image {
+            color: #376DC3;
+            font-weight: 500;
+        }
+        
+        #line::before,
+        #line::after {
+            display: inline-block;
+            content: "";
+            border-top: .3rem solid #8CC444;
+            width: 2rem;
+            margin: 0 1rem;
+            transform: translateY(-1rem);
+        }
+        
+        #intro-description {
+            max-width: 70%;
+            margin: 0 auto;
+            text-align: left;
+            font-size: 16px;
+        }
+        
+        #estimate-numbers {
+            display: flex;
+            justify-content: space-evenly;
+            padding-top: 5%;
+            padding-bottom: 5%;
+            background-color: #376DC3;
+            flex-wrap: wrap;
+            font-family: "poppins";
+        }
+        
+        .services {
+            text-align: center;
+            color: white;
+        }
+        
+        .numbers {
+            font-size: 50px;
+        }
+        
+        .color-green {
+            color: #8CC444;
+        }
+        
+        #services-section {
+            text-align: center;
+            color: #376DC3;
+            background-color: #F7F8FA;
+            padding-bottom: 5%;
+            padding-top: 3%;
+        }
+        
+        #service-name {
+            font-size: 12px;
+        }
+        
+        .sd:hover,
+        .we:hover,
+        .me:hover,
+        .dk:hover,
+        .rplant:hover,
+        .ed:hover {
+            cursor: pointer;
+        }
+        
+        #gallery {
+            padding-top: 5%;
+            text-align: center;
+            width: 90%;
+            margin: 5px;
+            margin: 0 auto;
+            padding-bottom: 10%;
+        }
+        
+        .images {
+            height: 150px;
+        }
+        
+        .gallery-image {
+            display: block;
+            width: 100%;
+            background-color: blue;
+            cursor: pointer;
+        }
+        
+        .fade {
+            position: relative;
+            top: -365px;
+            left: 0;
+            right: 0;
+            height: 100%;
+            width: 100%;
+            opacity: 0;
+            transition: .5s ease;
+            background-color: white;
+            padding-top: 30%;
+            padding-bottom: 100px;
+            color: black;
+            font-size: 30px;
+            cursor: pointer;
+            visibility: hidden;
+        }
+        
+        .images:hover .fade {
+            opacity: 0.8;
+            transform: translate(0px, 200px);
+            transition: 0.7s;
+            visibility: visible;
+        }
+        
+        #image-container {
+            display: flex;
+            justify-content: space-evenly;
+            margin-top: 3%;
+        }
+        
+        footer {
+            background-color: #25272E;
+            color: white;
+            padding: 5%;
+        }
+        
+        .phone-icons {
+            color: #8CC444;
+        }
+        
+        .footer-icons {
+            background-color: #376DC3;
+            padding: 10px 10px 10px 10px;
+            border-radius: 30px;
+            cursor: pointer;
+        }
+        
+        .footer-icons:hover {
+            background-color: #eeecec;
+            color: black;
+        }
+        
+        .fa-facebook {
+            padding-left: 15px;
+            padding-right: 15px;
+        }
+        
+        #footer-container {
+            width: 80%;
+            display: flex;
+            justify-content: space-between;
+            margin-left: 50px;
+            flex-wrap: wrap;
+        }
+        
+        #hr-line {
+            width: 50%;
+            background-color: #8CC444;
+            height: 2px;
+            padding: 0.5px;
+            border: none;
+        }
+        
+        #useful-links {
+            margin-right: 100px;
+            font-size: 20px;
+            padding-bottom: 100px;
+        }
+        
+        #connect {
+            font-size: 20px;
+        }
+        
+        #end {
+            background-color: #376DC3;
+            padding: 10px;
+        }
+        
+        #personaldetails {
+            background-color: red;
+            padding: 10px;
+        }
+        
+        #end-para {
+            width: 73%;
+            margin: 0 auto;
+            color: white;
+            font-size: 12px;
+        }
+        
+        @media only screen and (max-width:540px) {
+            div.nav1 {
+                overflow-x: hidden;
+            }
+            #topnav {
+                overflow-x: hidden;
+            }
+        }
+        
+        a.onlybutton {
+            text-decoration: none;
+            color: black;
+        }
+        
+        a.onlybutton:hover {
+            background: rgb(60, 60, 197);
+            color: white;
+            border-radius: 40px;
+            border: 1px;
+            cursor: pointer;
+        }
